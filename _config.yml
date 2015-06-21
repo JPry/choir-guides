@@ -27,6 +27,7 @@ defaults:
             layout: "sheet"
             little_ektenia_3: 1
             normal_exaposteilarion: true
+            ascension: true
 
 kramdown:
     parse_block_html: true

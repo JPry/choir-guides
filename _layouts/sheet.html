@@ -40,7 +40,6 @@
             .right {
                 display: inline-block;
                 float: right;
-                font-weight: bold;
             }
             .page-break	{
                 clear: both;
@@ -78,9 +77,15 @@
     <hr>
 
     <div class='section'>
-        <h3>Orthros</h3>
+        <h3 class='caps service'>Orthros</h3>
         {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
         {{ orthros_include | markdownify }}
+    </div>
+
+    <div class="section">
+        <h3 class='caps service'>Divine Liturgy</h3>
+        {% capture liturgy_include %}{% include liturgy.md %}{% endcapture %}
+        {{ liturgy_include | markdownify }}
     </div>
 
 </div>
