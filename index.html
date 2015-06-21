@@ -1,5 +1,3 @@
----
----
 <html>
 <head>
     <title>{{ site.title }}</title>
@@ -11,7 +9,7 @@
 
 {% for post in site.posts %}
 
-<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.date }}</a>
 
 {% endfor %}
 </body>
