@@ -30,3 +30,4 @@ defaults:
 
 kramdown:
     parse_block_html: true
+    input: GFM
