@@ -1,6 +1,7 @@
 baseurl: "/choir-guides"
 #url: ""
-title: "Variable Sheet"
+title: "Variable Sheets"
+permalink: pretty
 
 gems:
     - jemoji
