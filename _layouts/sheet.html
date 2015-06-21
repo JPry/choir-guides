@@ -72,15 +72,11 @@
 <body>
 <div id="wrap">
 
-{::options parse_block_html="true" /}
+    {% include header.md %}
 
-**{{ page.date | date: "%F %d, %Y" }}**
-
-**{{ page.celebrate }}**
-
-{{ page.saints | join: "; " }}
-
-{% include orthros.md %}
+    <div class='section'>
+    {% include orthros.md %}
+    </div>
 
 </div>
 </body>
