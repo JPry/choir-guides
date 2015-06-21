@@ -72,13 +72,13 @@
 <body>
 <div id="wrap">
 
-    **{{ page.date | date: "%F %d, %Y" }}**
+**{{ page.date | date: "%F %d, %Y" }}**
 
-    **{{ page.celebrate }}**
+**{{ page.celebrate }}**
 
-    {{ page.saints | join: "; " }}
+{{ page.saints | join: "; " }}
 
-    {% include orthros.html %}
+{% include orthros.html %}
 
 </div>
 </body>
