@@ -29,5 +29,4 @@ defaults:
             normal_exaposteilarion: true
 
 kramdown:
-    input: GFM
     parse_block_html: true
