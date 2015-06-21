@@ -7,7 +7,9 @@ saints:
     - New-martyr Nikita of Nisyros near Rhodes
 tone: 2
 eothinon: 3
-
+canon: Akathist - Tone 4
+exaposteilaria:
+    - Theotokion - Tone 2
 
 ---
 
