@@ -1,4 +1,3 @@
----
 **{{ page.date | date: "%F %d, %Y" }}**
 
 **{{ page.celebrate }}**
