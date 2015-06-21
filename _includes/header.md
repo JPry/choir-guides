@@ -1,5 +1,5 @@
 **{{ page.date | date: "%B %-d, %Y" }}**
 
-**{{ page.celebrate }}**
+**{{ page.title }}**
 
 {{ page.saints | join: "; " }}
