@@ -11,7 +11,7 @@
 
 {% for post in site.posts %}
 
-<a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%B %-d, %Y" }} - {{ post.title }}</a>
+<a href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.date | date: "%B %-d, %Y" }} - {{ post.title }}</a>
 
 {% endfor %}
 </body>
