@@ -41,6 +41,8 @@ little_ektenia_3: 1
 exaposteilaria:
     - 
 
+# Custom value for the Great Doxology (different than tone of the week)
+great_doxology: null
 
 # 1st & 2nd Antiphon for Divine Liturgy
 antiphon_12: 

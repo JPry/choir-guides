@@ -33,7 +33,7 @@ PRAISES - Tone {{ page.tone }} **p. {{ site.data.vars.praises[page.tone] }}**{: 
 
 DOXASTIKON - Tone {{ site.data.vars.doxasticon[page.eothinon]['tone'] }} **p. {{ site.data.vars.doxasticon[page.eothinon]['page'] }}**{: class="right" }
 
-GREAT DOXOLOGY - Tone {{ page.tone }}
+GREAT DOXOLOGY - Tone {% if page.great_doxology %}{{ page.great_doxology }}{% else %}{{ page.tone }}{% endif %}
 
 {% if page.tone <= 4 %}
 * Troparion - Tone 4

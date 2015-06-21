@@ -27,6 +27,7 @@ defaults:
             layout: "sheet"
             little_ektenia_3: 1
             normal_exaposteilarion: true
+            great_doxology: null
             liturgy_right: false
             ascension: true
 

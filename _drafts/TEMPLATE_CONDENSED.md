@@ -15,6 +15,7 @@ canon:
 little_ektenia_3: 1
 exaposteilaria:
     - 
+great_doxology: null
 
 # Divine Liturgy
 antiphon_12: 
