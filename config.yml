@@ -1,0 +1,33 @@
+#baseurl: ""
+#url: ""
+title: "Variable Sheet"
+
+gems:
+    - jemoji
+    - jekyll-sitemap
+
+timezone: America/New_York
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            author: "Jeremy Pry"
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "default"
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "sheet"
+            little_ektenia_3: 1
+            normal_exaposteilarion: true
+
+kramdown:
+    input: GFM
+    parse_block_html: true
