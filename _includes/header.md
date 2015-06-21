@@ -1,4 +1,4 @@
-**{{ page.date | date: "%F %d, %Y" }}**
+**{{ page.date | date: "%B %-d, %Y" }}**
 
 **{{ page.celebrate }}**
 
