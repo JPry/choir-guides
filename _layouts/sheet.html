@@ -76,8 +76,9 @@
     {{ header_include | markdownify }}
 
     <div class='section'>
-    {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
-    {{ orthros_include | markdownify }}
+        <h3>Orthros</h3>
+        {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
+        {{ orthros_include | markdownify }}
     </div>
 
 </div>
