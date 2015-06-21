@@ -72,12 +72,12 @@
 <body>
 <div id="wrap">
 
-    {% capture header-include %}{% include header.md %}{% endcapture %}
-    {{ header-include | markdownify }}
+    {% capture header_include %}{% include header.md %}{% endcapture %}
+    {{ header_include | markdownify }}
 
     <div class='section'>
-    {% capture orthros-include %}{% include orthros.md %}{% endcapture %}
-    {{ orthros-include | markdownify }}
+    {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
+    {{ orthros_include | markdownify }}
     </div>
 
 </div>
