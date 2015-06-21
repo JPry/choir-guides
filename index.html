@@ -7,11 +7,11 @@
 
 <body>
 
-<p>Last updated: {{ site.time }}</p>
+<p>Last updated: {{ site.time | date: "%B %-d %Y %R" }}</p>
 
 {% for post in site.posts %}
 
-<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.date }}</a>
+<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.date | date: "%B %-d, %Y" }}</a>
 
 {% endfor %}
 </body>
