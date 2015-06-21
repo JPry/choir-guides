@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Variable Sheet</title>
+    <style>
+        @media print,screen {
+            @page {
+                padding: 0.2in;
+            }
+            body {
+                font-family: sans-serif;
+                font-size: 15px;
+            }
+            p {
+                margin: 0.5em 0;
+            }
+            ul {
+                margin: 0 0 1em;
+            }
+            .section {
+                /* Comment out float if Liturgy is short enough */
+                /*float: left;*/
+                padding: 0 0.1in;
+                width: 45%;
+            }
+            .caps {
+                text-transform: uppercase;
+            }
+            .center {
+                text-align: center;
+            }
+            .service {
+                text-decoration: underline;
+            }
+            .space {
+                margin-top: 1.5em;
+            }
+            .strike {
+                text-decoration: line-through;
+            }
+            .right {
+                display: inline-block;
+                float: right;
+                font-weight: bold;
+            }
+            .page-break	{
+                clear: both;
+                display: block;
+                page-break-before: always;
+            }
+            .italic {
+                font-style: italic;
+            }
+            .verse {
+                padding-top: 5px;
+            }
+
+            .bold {
+                font-weight: bold;
+            }
+
+            .section.right {
+                font-weight: normal;
+            }
+        }
+        @media screen {
+            #wrap {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+
+    **{{ page.date | date: "%F %d, %Y" }}**
+
+    **{{ page.celebrate }}**
+
+    {{ page.saints | join: "; " }}
+
+    {% include orthros.html %}
+
+</div>
+</body>
+</html>
