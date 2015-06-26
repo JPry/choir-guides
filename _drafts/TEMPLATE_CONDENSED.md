@@ -13,6 +13,7 @@ apolytikion:
 
 canon:
 little_ektenia_3: 1
+normal_exaposteilarion: true
 exaposteilaria:
     - 
 great_doxology: null

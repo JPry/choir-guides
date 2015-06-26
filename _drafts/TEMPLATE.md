@@ -37,6 +37,9 @@ canon:
 # 3rd Little Littany for Orthros. Use 1 for the normal version, and 2 for the version without "Exalt ye the Lord Our God..."
 little_ektenia_3: 1
 
+# Whether to sing the normal Eothinon Exaposteilarion
+normal_exaposteilarion: true
+
 # List of Exaposteilaria for Orthros
 exaposteilaria:
     - 
