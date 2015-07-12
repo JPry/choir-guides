@@ -24,6 +24,5 @@ antiphon_3: Resurrectional Apolytikion - Tone 5
 post_entrance:
     - Resurrectional Apolytikion - Tone 5
 
-
 ---
 
