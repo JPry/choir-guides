@@ -15,7 +15,7 @@
         <h3 class='caps service'>Orthros</h3>
         {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
         {{ orthros_include | markdownify }}
-        {% if ! page.liturgy_right %}<hr>{% endif %}
+        {% if not page.liturgy_right %}<hr>{% endif %}
     </div>
 
     <div class="section {% if page.liturgy_right %}{{ 'right' }}{% endif %}">
