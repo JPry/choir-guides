@@ -30,6 +30,8 @@ defaults:
             great_doxology: null
             liturgy_right: true
             ascension: true
+            overrides:
+                doxastikon: null
 
 kramdown:
     parse_block_html: true

@@ -31,7 +31,11 @@ EXAPOSTEILARIA
 
 PRAISES - Tone {{ page.tone }} **p. {{ site.data.vars.praises[page.tone] }}**{: class="right" }
 
+{% if page.overrides.doxastikon != null %}
+DOXASTIKON - {{ page.overrides.doxastikon }}
+{% else %}
 DOXASTIKON - Tone {{ site.data.vars.doxasticon[page.eothinon]['tone'] }} **p. {{ site.data.vars.doxasticon[page.eothinon]['page'] }}**{: class="right" }
+{% endif %}
 
 GREAT DOXOLOGY - Tone {% if page.great_doxology %}{{ page.great_doxology }}{% else %}{{ page.tone }}{% endif %}
 

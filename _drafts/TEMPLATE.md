@@ -47,6 +47,11 @@ exaposteilaria:
 # Custom value for the Great Doxology (different than tone of the week)
 great_doxology: null
 
+# Other overrides
+overrides:
+    # Set a custom Doxastikon (for feasts).
+    doxastikon: null
+
 # 1st & 2nd Antiphon for Divine Liturgy
 antiphon_12: 
 

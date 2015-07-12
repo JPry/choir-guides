@@ -18,6 +18,9 @@ exaposteilaria:
     - 
 great_doxology: null
 
+overrides:
+    doxastikon: null
+
 # Divine Liturgy
 antiphon_12: 
 antiphon_3: 
