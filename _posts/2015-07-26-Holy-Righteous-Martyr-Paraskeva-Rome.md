@@ -20,7 +20,7 @@ normal_exaposteilarion: true
 exaposteilaria:
     - Exaposteilarion of St. Paraskeva - Tone 2
     - Theotokion of St. Paraskeva - Tone 2
-great_doxology: null
+great_doxology: 8
 
 overrides:
     doxastikon: null
