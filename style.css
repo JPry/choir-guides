@@ -21,8 +21,7 @@
     }
 
     .section {
-        /* Comment out float if Liturgy is short enough */
-        /*float: left;*/
+        float: left;
         padding: 0 0.1in;
         width: 45%;
     }
