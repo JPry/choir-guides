@@ -26,6 +26,7 @@ antiphon_12:
 antiphon_3: 
 post_entrance:
     -
+kontakion: false
 
 #ascension: false
 

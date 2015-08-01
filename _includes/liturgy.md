@@ -12,3 +12,7 @@ After Entrance Troparia:
 {% else %}
 1. **DO NOT SING** Troparion of Ascension
 {% endif %}
+
+{% if page.kontakion %}
+KONTAKION: {{ page.kontakion }}
+{% endif %}

@@ -61,6 +61,8 @@ antiphon_3:
 # List of after-entrance Troparia for Divine Liturgy
 post_entrance:
     - 
+# The Kontakion of the day.
+kontakion: false
 
 # When the Troparion of Ascension should NOT be sung, uncomment this line:
 #ascension: false
