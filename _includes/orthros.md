@@ -37,7 +37,7 @@ DOXASTIKON - {{ page.overrides.doxastikon }}
 DOXASTIKON - Tone {{ site.data.vars.doxasticon[page.eothinon]['tone'] }} **p. {{ site.data.vars.doxasticon[page.eothinon]['page'] }}**{: class="right" }
 {% endif %}
 
-GREAT DOXOLOGY - Tone {% if page.great_doxology %}{{ page.great_doxology }}{% else %}{{ page.tone }}{% endif %}
+GREAT DOXOLOGY - Tone {% if page.great_doxology %}{{ page.great_doxology }}{% else %}{{ site.data.vars.doxasticon[page.eothinon]['tone'] }}{% endif %}
 
 {% if page.tone <= 4 %}
 * Troparion - Tone 4
