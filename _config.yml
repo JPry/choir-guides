@@ -1,6 +1,11 @@
 baseurl: "/choir-guides"
 title: "Variable Sheets"
 permalink: pretty
+exclude:
+    - bin
+    - composer.*
+    - src
+    - vendor
 
 gems:
     - jemoji
