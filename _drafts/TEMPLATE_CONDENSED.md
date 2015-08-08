@@ -19,6 +19,7 @@ exaposteilaria:
 great_doxology: null
 
 overrides:
+    kathismata: null
     doxastikon: null
 
 # Divine Liturgy

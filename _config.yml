@@ -31,6 +31,7 @@ defaults:
             liturgy_right: true
             ascension: true
             overrides:
+                kathismata: null
                 doxastikon: null
 
 kramdown:

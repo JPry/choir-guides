@@ -6,7 +6,11 @@ GOD IS THE LORD - Tone {{ page.tone }} **p. {{ site.data.vars.god_is_the_lord[pa
 
 LITTLE LITTANY **p. 32**{: class="right" }
 
+{% if page.overrides.kathismata != null %}
+KATHISMATA - {{ page.overrides.kathismata }}
+{% else %}
 KATHISMATA - Tone {{ page.tone }} **p. {{ site.data.vars.kathismata[page.tone] }}**{: class="right" }
+{% endif %}
 
 EVLOGETARIA - Tone 5 **p. 41**{: class="right" }
 

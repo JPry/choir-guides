@@ -47,8 +47,10 @@ exaposteilaria:
 # Custom value for the Great Doxology (different than tone of the week)
 great_doxology: null
 
-# Other overrides
+# Other overrides, mostly only used for feasts. Replace "null" with the appropriate value.
 overrides:
+    # Set a custom Kathismata (Plain Reading)
+    kathismata: null
     # Set a custom Doxastikon (for feasts).
     doxastikon: null
 
