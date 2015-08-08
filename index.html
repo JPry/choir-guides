@@ -28,5 +28,8 @@
 
 <p><a href="{{ item.path | prepend: site.baseurl }}">{{ item.path | remove:'/pdfs/' | remove:'.pdf' }}</a></p>
 
+{% endif %}
+{% endfor %}
+
 </body>
 </html>
