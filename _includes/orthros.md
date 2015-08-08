@@ -12,7 +12,11 @@ KATHISMATA - {{ page.overrides.kathismata }}
 KATHISMATA - Tone {{ page.tone }} **p. {{ site.data.vars.kathismata[page.tone] }}**{: class="right" }
 {% endif %}
 
+{% if page.overrides.evlogetaria != null %}
+{{ page.overrides.evlogetaria }} *Replaces the Evlogetaria*
+{% else %}
 EVLOGETARIA - Tone 5 **p. 41**{: class="right" }
+{% endif %}
 
 LITTLE LITTANY **p. 45**{: class="right" }
 

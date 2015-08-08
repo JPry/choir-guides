@@ -51,7 +51,11 @@ great_doxology: null
 overrides:
     # Set a custom Kathismata (Plain Reading)
     kathismata: null
-    # Set a custom Doxastikon (for feasts).
+
+    # Set a custom Evlogetaria.
+    evlogetaria: null
+
+    # Set a custom Doxastikon.
     doxastikon: null
 
 # 1st & 2nd Antiphon for Divine Liturgy
