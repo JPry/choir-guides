@@ -18,7 +18,9 @@
 {% endfor %}
 
 <pre>
-{{ site.static_files }}
+{% for item in site.static_files %}
+    {{ item.path }}
+{% endfor %}
 </pre>
 </body>
 </html>
