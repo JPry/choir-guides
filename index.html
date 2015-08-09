@@ -23,7 +23,8 @@
 
 <p>Click a link below to view/download a PDF for the matching date.</p>
 
-{% for item in site.static_files %}
+{% assign files = site.static_files | sort: 'path' %}
+{% for item in files reversed %}
 {% if item.extname == '.pdf' %}
 
 <p><a href="{{ item.path | prepend: site.baseurl }}">{{ item.path | remove:'/pdfs/' | remove:'.pdf' }}</a></p>
