@@ -3,7 +3,7 @@ tone: 2
 eothinon: 11 
 title: After-feast of the Dormition of the Theotokos
 saints:
-    - "Recovery from Edessa of the Icon of Christ Not Made by Hands: 'The Holy Napkin'"
+    - "Recovery from Edessa of the Icon of Christ Not Made by Hands\: 'The Holy Napkin'"
 
 apolytikion:
     - Resurrectional Apolytikion - Tone 2
