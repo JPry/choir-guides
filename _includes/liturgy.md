@@ -16,3 +16,11 @@ After Entrance Troparia:
 {% if page.kontakion %}
 KONTAKION: {{ page.kontakion }}
 {% endif %}
+
+{% if page.megalynarion %}
+MEGALYNARION: {{ page.megalynarion }}
+{% endif %}
+
+{% if page.koinonikon %}
+KOINONIKON: {{ page.koinonikon }}
+{% endif %}

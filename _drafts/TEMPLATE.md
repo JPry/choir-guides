@@ -73,5 +73,11 @@ kontakion: false
 # When the Troparion of Ascension should NOT be sung, uncomment this line:
 #ascension: false
 
+# The Megalynarion of the day.
+megalynarion: false
+
+# The Koinonikon (Communion Hymn) of the day
+koinonikon: false
+
 ---
 

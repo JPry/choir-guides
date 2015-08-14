@@ -39,6 +39,9 @@ defaults:
                 kathismata: null
                 evlogetaria: null
                 doxastikon: null
+            kontakion: false
+            megalynarion: false
+            koinonikon: false
 
 kramdown:
     parse_block_html: true

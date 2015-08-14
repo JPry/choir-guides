@@ -29,6 +29,8 @@ antiphon_3:
 post_entrance:
     -
 kontakion: false
+megalynarion: false
+koinonikon: false
 
 #ascension: false
 
