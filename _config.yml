@@ -23,15 +23,16 @@ defaults:
         values:
             author: "Jeremy Pry"
             god_is_the_lord: null
+            kathismata: null
+            evlogetaria: null
+            prokeimenon: null
             little_ektenia_3: 1
             normal_exaposteilarion: true
+            doxastikon: null
             great_doxology: null
+            troparion: null
             liturgy_right: true
             ascension: true
-            overrides:
-                kathismata: null
-                evlogetaria: null
-                doxastikon: null
             kontakion: false
             megalynarion: false
             koinonikon: false

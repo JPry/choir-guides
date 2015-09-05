@@ -26,6 +26,15 @@ apolytikion:
     - Glory/
     - Both Now/
 
+# Set a custom Kathismata (Plain Reading)
+kathismata: 
+
+# Set a custom Evlogetaria
+evlogetaria: 
+
+# Set a custom PROKEIMENON
+prokeimenon: 
+
 # Canon for Orthros
 canon: 
 
@@ -39,19 +48,17 @@ normal_exaposteilarion: true
 exaposteilaria:
     - 
 
-# Custom value for the Great Doxology (different than tone of the week)
-great_doxology: null
+# Custom tone for Praises (ANOI)
+praises: 
 
-# Other overrides. Replace "null" with the appropriate value.
-overrides:
-    # Set a custom Kathismata (Plain Reading)
-    kathismata: null
+# Set a custom Doxastikon.
+doxastikon: 
 
-    # Set a custom Evlogetaria.
-    evlogetaria: null
+# Custom value for the Great Doxology (Should be the same as the Doxastikon)
+great_doxology: 
 
-    # Set a custom Doxastikon.
-    doxastikon: null
+# Custom Troparion after Great Doxology
+troparion: 
 
 # 1st & 2nd Antiphon for Divine Liturgy
 antiphon_12: 
