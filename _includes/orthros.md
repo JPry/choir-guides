@@ -17,7 +17,7 @@ KATHISMATA - Tone {{ page.tone }} **p. {{ site.data.vars.kathismata[page.tone] }
 {% endif %}
 
 {% if page.evlogetaria != null %}
-{{ page.evlogetaria }} *Replaces the Evlogetaria*
+{{ page.evlogetaria }} *(Replaces the Evlogetaria)*
 {% else %}
 EVLOGETARIA - Tone 5 **p. 41**{: class="right" }
 {% endif %}
