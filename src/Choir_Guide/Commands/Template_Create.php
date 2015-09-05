@@ -141,9 +141,10 @@ class Template_Create extends Command
         $date      = strtotime($input->getArgument('date'));
         $title     = $input->getArgument('title');
         $condensed = $input->getOption('condensed');
+        $feast     = $input->getOption('feast');
 
         // Determine if this is a feast or regular sunday
-        if ($input->getOption('feast')) {
+        if ($feast) {
             $file = sprintf('%s/_feasts/%s.md', ROOT_DIR, $slugify->slugify($title));
         } else {
             $file = sprintf('%s/_posts/%s-%s.md', ROOT_DIR, date('Y-m-d', $date), $slugify->slugify($title));
