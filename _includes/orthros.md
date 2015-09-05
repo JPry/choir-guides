@@ -11,7 +11,7 @@ GOD IS THE LORD - Tone {{ page.tone }}
 LITTLE LITTANY **p. 32**{: class="right" }
 
 {% if page.kathismata %}
-KATHISMATA - {{ page.overrides.kathismata }}
+KATHISMATA - {{ page.kathismata }}
 {% else %}
 KATHISMATA - Tone {{ page.tone }} **p. {{ site.data.vars.kathismata[page.tone] }}**{: class="right" }
 {% endif %}
@@ -51,8 +51,8 @@ PRAISES - Tone {{ page.praises }}
 PRAISES - Tone {{ page.tone }} **p. {{ site.data.vars.praises[page.tone] }}**{: class="right" }
 {% endif %}
 
-{% if page.overrides.doxastikon != null %}
-DOXASTIKON - {{ page.overrides.doxastikon }}
+{% if page.doxastikon != null %}
+DOXASTIKON - {{ page.doxastikon }}
 {% else %}
 DOXASTIKON - Tone {{ site.data.vars.doxasticon[page.eothinon]['tone'] }} **p. {{ site.data.vars.doxasticon[page.eothinon]['page'] }}**{: class="right" }
 {% endif %}
