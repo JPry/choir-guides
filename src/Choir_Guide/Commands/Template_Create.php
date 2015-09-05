@@ -157,6 +157,7 @@ class Template_Create extends Command
 
         // Copy the file
         $template = ROOT_DIR . '/_drafts/TEMPLATE';
+        $template .= $feast ? '_FEAST' : '';
         $template .= $condensed ? '_CONDENSED.md' : '.md';
         $result = @copy($template, $file);
 
@@ -169,6 +170,4 @@ class Template_Create extends Command
 
         return 0;
     }
-
-
 }
