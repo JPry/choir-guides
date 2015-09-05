@@ -1,5 +1,5 @@
 ---
-title: "Exaltation (Elevation) of the Holy Cross"
+title: Exaltation of the Holy Cross
 when: September 14th 2015
 saints:
     - Repose of John Chrysostom, archbishop of Constantinople
