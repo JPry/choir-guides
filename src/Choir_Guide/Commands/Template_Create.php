@@ -11,10 +11,13 @@ namespace JPry\Choir_Guide\Commands;
 use Cocur\Slugify\Slugify;
 use JPry\Choir_Guide\Exception\File_Exists;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Helper\QuestionHelper;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Question\ConfirmationQuestion;
+use Symfony\Component\Console\Question\Question;
 
 /**
  * Class Template_Create
@@ -23,6 +26,12 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class Template_Create extends Command
 {
+    /**
+     * Format for asking questions.
+     *
+     * @var string
+     */
+    protected $q_format = '<question>%s</question> ';
 
     protected function configure()
     {
@@ -48,6 +57,64 @@ class Template_Create extends Command
                 'no'
             )
         ;
+    }
+
+    /**
+     * Provide interaction when some or all arguments and options are missing.
+     *
+     * @param InputInterface  $input
+     * @param OutputInterface $output
+     */
+    protected function interact(InputInterface $input, OutputInterface $output)
+    {
+        $definition = $this->getDefinition();
+        $arguments  = $input->getArguments();
+
+        /** @var QuestionHelper $question */
+        $questioner = $this->getHelper('question');
+
+        // Ask whether this is a feast
+        if (!$input->getOption('feast')) {
+            $text     = 'Is this for a feast?';
+            $question = new ConfirmationQuestion(sprintf($this->q_format, $text));
+
+            // Get the response and store it as boolean
+            $response = (bool) $questioner->ask($input, $output, $question);
+            $input->setOption('feast', $response);
+        }
+
+        // Loop through any missing arguments and ask for them
+        foreach ($definition->getArguments() as $argument) {
+            $name = $argument->getName();
+
+            // If this is for a feast, skip the date because it's not needed in the file name
+            if ($input->getOption('feast') && 'date' == $name) {
+                continue;
+            }
+
+            // Only prompt if the argument wasn't set
+            if (!isset($arguments[$name])) {
+
+                // Set up the variables we'll need
+                $description = $argument->getDescription();
+                $default     = $argument->getDefault();
+                $question    = new Question(sprintf($this->q_format, $description), $default);
+
+                // Get the response, and store it
+                $response = $questioner->ask($input, $output, $question);
+                $input->setArgument($name, $response);
+            }
+        }
+
+        // Ask about the condensed template
+        if (!$input->getOption('condensed')) {
+            $text     = 'Do you want to use the condensed template?';
+            $question = new ConfirmationQuestion(sprintf($this->q_format, $text));
+
+            // Get the response and store it as boolean
+            $response = (bool) $questioner->ask($input, $output, $question);
+            $input->setOption('condensed', $response);
+        }
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
