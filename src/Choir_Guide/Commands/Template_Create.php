@@ -33,6 +33,9 @@ class Template_Create extends Command
      */
     protected $q_format = '<question>%s</question> ';
 
+    /**
+     * Configuration for this command.
+     */
     protected function configure()
     {
         $this
@@ -122,6 +125,15 @@ class Template_Create extends Command
         }
     }
 
+    /**
+     * Execute the command.
+     *
+     * @param InputInterface  $input
+     * @param OutputInterface $output
+     *
+     * @return int
+     * @throws File_Exists When the file to create already exists.
+     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $slugify    = new Slugify();
