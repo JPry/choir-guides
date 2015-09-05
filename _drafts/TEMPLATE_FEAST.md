@@ -17,6 +17,9 @@ title:
 # The day the feast is celebrated
 when: 
 
+# Tone for God is the Lord (only the number is needed). Example: 4
+god_is_the_lord:
+
 # List of Apolytikions for Orthros
 apolytikion:
     - 

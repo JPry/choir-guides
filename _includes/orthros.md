@@ -1,4 +1,8 @@
+{% if page.god_is_the_lord %}
+GOD IS THE LORD - Tone {{ page.god_is_the_lord }}
+{% else %}
 GOD IS THE LORD - Tone {{ page.tone }}
+{% endif %}
 
 {% for hymn in page.apolytikion %}
 1. {{ hymn }}

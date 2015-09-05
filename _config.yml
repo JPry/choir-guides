@@ -22,6 +22,7 @@ defaults:
             path: ""
         values:
             author: "Jeremy Pry"
+            god_is_the_lord: null
             little_ektenia_3: 1
             normal_exaposteilarion: true
             great_doxology: null

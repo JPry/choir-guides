@@ -2,6 +2,7 @@
 title: 
 when: 
 
+god_is_the_lord: 
 apolytikion:
     - 
     - Glory/
