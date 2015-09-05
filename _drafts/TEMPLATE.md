@@ -59,19 +59,20 @@ overrides:
     doxastikon: null
 
 # 1st & 2nd Antiphon for Divine Liturgy
-antiphon_12: 
+antiphon_12: Normal Sunday
 
 # 3rd Antiphon for Divine Liturgy
 antiphon_3: 
 
-# List of after-entrance Troparia for Divine Liturgy
+# List of after-entrance Troparia for Divine Liturgy. DO NOT include Troparion of Ascension
 post_entrance:
     - 
+
+# When the Troparion of Ascension should NOT be sung, change "true" to "false"
+ascension: true
+
 # The Kontakion of the day.
 kontakion: false
-
-# When the Troparion of Ascension should NOT be sung, uncomment this line:
-#ascension: false
 
 # The Megalynarion of the day.
 megalynarion: false

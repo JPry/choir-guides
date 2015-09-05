@@ -4,7 +4,7 @@ eothinon:
 title: 
 saints:
     - 
-    -
+    - 
 
 apolytikion:
     - 
@@ -24,15 +24,15 @@ overrides:
     doxastikon: null
 
 # Divine Liturgy
-antiphon_12: 
+antiphon_12: Normal Sunday
 antiphon_3: 
 post_entrance:
-    -
+    - 
 kontakion: false
 megalynarion: false
 koinonikon: false
 
-#ascension: false
+ascension: true
 
 ---
 
