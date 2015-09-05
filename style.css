@@ -21,6 +21,7 @@
         margin: 0;
     }
 
+    section,
     .section {
         float: left;
         padding: 0 0.1in;
@@ -70,6 +71,7 @@
         font-weight: bold;
     }
 
+    section .right,
     .section.right {
         font-weight: normal;
     }

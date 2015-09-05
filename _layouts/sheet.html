@@ -11,18 +11,18 @@
 
     <hr>
 
-    <div class='section'>
+    <section>
         <h3 class='caps service'>Orthros</h3>
         {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
         {{ orthros_include | markdownify }}
         {% if false == page.liturgy_right %}<hr>{% endif %}
-    </div>
+    </section>
 
-    <div class="section {% if page.liturgy_right %}{{ 'right' }}{% endif %}">
+    <section class="right}">
         <h3 class='caps service'>Divine Liturgy</h3>
         {% capture liturgy_include %}{% include liturgy.md %}{% endcapture %}
         {{ liturgy_include | markdownify }}
-    </div>
+    </section>
 
 </div>
 </body>
