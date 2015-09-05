@@ -136,29 +136,37 @@ class Template_Create extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $slugify    = new Slugify();
-        $date       = strtotime($input->getArgument('date'));
-        $title      = $input->getArgument('title');
-        $condensed  = 'yes' == strtolower($input->getOption('condensed'));
-        $title_slug = date('Y-m-d', $date) . '-' . $slugify->slugify($title);
-        $file       = ROOT_DIR . '/_posts/' . $title_slug . '.md';
+        // Set up initial variables
+        $slugify   = new Slugify();
+        $date      = strtotime($input->getArgument('date'));
+        $title     = $input->getArgument('title');
+        $condensed = $input->getOption('condensed');
+
+        // Determine if this is a feast or regular sunday
+        if ($input->getOption('feast')) {
+            $file = sprintf('%s/_feasts/%s.md', ROOT_DIR, $slugify->slugify($title));
+        } else {
+            $file = sprintf('%s/_posts/%s-%s.md', ROOT_DIR, date('Y-m-d', $date), $slugify->slugify($title));
+        }
 
         // Check if the file already exists
         if (file_exists($file)) {
-            throw new File_Exists("A file with the name {$title_slug} already exists.");
+            throw new File_Exists("That file already exists.", 1);
         }
 
         // Copy the file
         $template = ROOT_DIR . '/_drafts/TEMPLATE';
         $template .= $condensed ? '_CONDENSED.md' : '.md';
-        $result = copy($template, $file);
+        $result = @copy($template, $file);
 
-
+        // Verify the result
         if (false === $result) {
             $output->writeln('<error>Failed to create file</error>');
         } else {
             $output->writeln('Success!');
         }
+
+        return 0;
     }
 
 
