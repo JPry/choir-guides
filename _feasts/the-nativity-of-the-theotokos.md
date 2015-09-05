@@ -30,8 +30,8 @@ post_entrance:
 ascension: false
 
 kontakion: Nativity of the Theotokos - Tone 4
-megalynarion: Tone 8 ("Magnify, O my soul, the Virgin Mary...")
-koinonikon: Tone 8 ("I will receive the cup of Salvation...")
+megalynarion: Tone 8 *("Magnify, O my soul, the Virgin Mary...")*
+koinonikon: Tone 8 *("I will receive the cup of Salvation...")*
 
 ---
 
