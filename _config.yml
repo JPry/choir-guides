@@ -11,6 +11,10 @@ gems:
     - jemoji
     - jekyll-sitemap
 
+collections:
+    feasts:
+        output: true
+
 timezone: America/New_York
 defaults:
     -
@@ -18,18 +22,6 @@ defaults:
             path: ""
         values:
             author: "Jeremy Pry"
-    -
-        scope:
-            path: ""
-            type: "pages"
-        values:
-            layout: "default"
-    -
-        scope:
-            path: ""
-            type: "posts"
-        values:
-            layout: "sheet"
             little_ektenia_3: 1
             normal_exaposteilarion: true
             great_doxology: null
@@ -42,6 +34,24 @@ defaults:
             kontakion: false
             megalynarion: false
             koinonikon: false
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "default"
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "sheet"
+    -
+        scope:
+            path: ""
+            type: "feasts"
+        values:
+            layout: "feast"
 
 kramdown:
     parse_block_html: true
