@@ -2,10 +2,7 @@
 title: Exaltation of the Holy Cross
 when: September 14th 2015
 
-saints:
-    - Repose of John Chrysostom, archbishop of Constantinople
-    - Venerable-martyr Makarios the New of Thessalonica
-    - Venerable-martyr Joseph of Dionysiou monastery on Athos
+
 
 # Orthros
 god_is_the_lord: 1
