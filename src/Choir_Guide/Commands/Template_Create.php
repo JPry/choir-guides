@@ -36,25 +36,30 @@ class Template_Create extends Command
     protected function configure()
     {
         $this
-            ->setName('template:create')
+            ->setName('guide:create')
             ->setAliases(array('create'))
-            ->setDescription('Create a new Choir Sheet from a Template')
+            ->setDescription('Create a new Choir Sheet Guide from a Template')
             ->addArgument(
                 'title',
-                InputArgument::REQUIRED,
+                InputArgument::OPTIONAL,
                 'What is the title of the Guide (The Primary Saint or Feast being celebrated)?'
             )
             ->addArgument(
                 'date',
-                InputArgument::REQUIRED,
-                'The date for the new post. Make sure to surround with quotes. Example: "next Sunday"'
+                InputArgument::OPTIONAL,
+                'What is the date for the new post? Make sure to surround with quotes. Example: "next Sunday"'
             )
             ->addOption(
                 'condensed',
                 'c',
-                InputOption::VALUE_REQUIRED,
-                'Whether to use the condensed template. Valid options are "yes" or "no"',
-                'no'
+                InputOption::VALUE_NONE,
+                'Use the condensed template.'
+            )
+            ->addOption(
+                'feast',
+                'f',
+                InputOption::VALUE_NONE,
+                'Designates that the guide is for a feast.'
             )
         ;
     }
