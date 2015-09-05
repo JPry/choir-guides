@@ -76,11 +76,17 @@ ascension: false
 # The Kontakion of the day.
 kontakion: false
 
+# Trisagion Hymn
+trisagion: false
+
 # The Megalynarion of the day.
 megalynarion: false
 
 # The Koinonikon (Communion Hymn) of the day
 koinonikon: false
+
+# Post-communion instructions
+post_communion: false
 
 ---
 

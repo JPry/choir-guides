@@ -30,11 +30,12 @@ antiphon_12: Normal Sunday
 antiphon_3: 
 post_entrance:
     - 
+ascension: true
 kontakion: false
+trisagion: false
 megalynarion: false
 koinonikon: false
-
-ascension: true
+post_communion: false
 
 ---
 

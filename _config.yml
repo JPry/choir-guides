@@ -34,8 +34,10 @@ defaults:
             liturgy_right: true
             ascension: true
             kontakion: false
+            trisagion: false
             megalynarion: false
             koinonikon: false
+            post_communion: false
     -
         scope:
             path: ""

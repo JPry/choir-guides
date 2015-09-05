@@ -31,8 +31,10 @@ post_entrance:
 ascension: false
 
 kontakion: false
+trisagion: false
 megalynarion: false
 koinonikon: false
+post_communion: false
 
 ---
 
