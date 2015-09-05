@@ -9,7 +9,17 @@
 
 <p>Last updated: {{ site.time | date: "%B %-d %Y %R" }}</p>
 
-<h2>Variable sheets</h2>
+<h2>Great Feasts</h2>
+
+{% for feast in site.feasts %}
+
+<p>
+    <a href="{{ feast.url | prepend: site.baseurl }}" target="_blank">{{ feast.title }} - {{ feast.when }}</a>
+</p>
+
+{% endfor %}
+
+<h2>Sunday Variable sheets</h2>
 
 {% for post in site.posts %}
 
@@ -17,19 +27,6 @@
     <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.date | date: "%B %-d, %Y" }} - {{ post.title }}</a>
 </p>
 
-{% endfor %}
-
-<h2>PDFs</h2>
-
-<p>Click a link below to view/download a PDF for the matching date.</p>
-
-{% assign files = site.static_files | sort: 'path' %}
-{% for item in files reversed %}
-{% if item.extname == '.pdf' %}
-
-<p><a href="{{ item.path | prepend: site.baseurl }}">{{ item.path | remove:'/pdfs/' | remove:'.pdf' }}</a></p>
-
-{% endif %}
 {% endfor %}
 
 </body>
