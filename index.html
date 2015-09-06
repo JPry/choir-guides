@@ -7,6 +7,10 @@
 
 <body>
 
+<pre>
+    {{ site.feasts | jsonify | escape }}
+</pre>
+
 <p>Last updated: {{ site.time | date: "%B %-d %Y %R" }}</p>
 
 <h2>Great Feasts</h2>
@@ -28,10 +32,6 @@
 </p>
 
 {% endfor %}
-
-<pre>
-    {{ site | jsonify | escape }}
-</pre>
 
 </body>
 </html>

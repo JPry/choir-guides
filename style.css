@@ -21,6 +21,10 @@
         margin: 0;
     }
 
+    pre {
+        display: none;
+    }
+
     section,
     .section {
         float: left;
