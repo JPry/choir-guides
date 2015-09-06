@@ -71,9 +71,8 @@
         font-weight: bold;
     }
 
-    section .right,
-    .section.right {
-        font-weight: normal;
+    #wrap {
+        overflow: auto;
     }
 }
 
