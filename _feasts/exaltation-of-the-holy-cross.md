@@ -39,7 +39,7 @@ kontakion: Exaltation of the Holy Cross - Tone 4
 trisagion: Anti-Trisagion Hymn *("Before Thy Cross we bow down...")*
 megalynarion: of the feast *("Magnify, O my soul, the most precious Cross...")*
 koinonikon: of the feast *("The light of Thy countenance...")*
-post_communion: *Instead of singing "We have seen the true light", sing the Apolytikion of the Holy Cross.*
+post_communion: '*Instead of singing "We have seen the true light", sing the Apolytikion of the Holy Cross.*'
 
 ---
 
