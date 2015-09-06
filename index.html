@@ -3,12 +3,17 @@
 <html>
 <head>
     <title>{{ site.title }}</title>
+    <style>
+        pre {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
 
 <pre>
-    {{ site.feasts | jsonify | escape }}
+    {{ site.collections | jsonify | escape }}
 </pre>
 
 <p>Last updated: {{ site.time | date: "%B %-d %Y %R" }}</p>
