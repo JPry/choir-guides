@@ -23,7 +23,7 @@ troparion: Nativity of the Theotokos - Tone 4
 
 # Divine Liturgy
 antiphon_12: See sheet
-antiphon_3: Apolytikion of the Holy Cross
+antiphon_3: Apolytikion of Natitivity of the Theotokos
 post_entrance:
     - Nativity of the Theotokos - Tone 4
 
@@ -34,4 +34,3 @@ megalynarion: Tone 8 *("Magnify, O my soul, the Virgin Mary...")*
 koinonikon: Tone 8 *("I will receive the cup of Salvation...")*
 
 ---
-
