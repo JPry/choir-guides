@@ -4,7 +4,7 @@ eothinon: 9
 title: The Holy Apostle and Evangelist Luke
 saints:
     - Martyr Marinos the Elder at Anazarbos
-    - Venerable Theodore, Simeon and Euphrosyne
+    - Venerable Theodore, Simeon, and Euphrosyne
     - New-martyrs Gabriel and Kyrmidoles of Egypt
     - Venerable Peter of Cetinje
 
