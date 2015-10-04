@@ -6,10 +6,10 @@
  * Time: 12:35
  */
 
-namespace JPry\Choir_Guide\Commands;
+namespace JPry\ChoirGuide\Commands;
 
 use Cocur\Slugify\Slugify;
-use JPry\Choir_Guide\Exception\File_Exists;
+use JPry\ChoirGuide\Exception\FileExists;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\QuestionHelper;
 use Symfony\Component\Console\Input\InputArgument;
@@ -20,11 +20,11 @@ use Symfony\Component\Console\Question\ConfirmationQuestion;
 use Symfony\Component\Console\Question\Question;
 
 /**
- * Class Template_Create
+ * Class TemplateCreate
  *
- * @package JPry\Choir_Guide\Commands
+ * @package JPry\ChoirGuide\Commands
  */
-class Template_Create extends Command
+class TemplateCreate extends Command
 {
     /**
      * Format for asking questions.
@@ -102,7 +102,6 @@ class Template_Create extends Command
 
             // Only prompt if the argument wasn't set
             if (!isset($arguments[$name])) {
-
                 // Set up the variables we'll need
                 $description = $argument->getDescription();
                 $default     = $argument->getDefault();
@@ -132,7 +131,7 @@ class Template_Create extends Command
      * @param OutputInterface $output
      *
      * @return int
-     * @throws File_Exists When the file to create already exists.
+     * @throws FileExists When the file to create already exists.
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
@@ -152,7 +151,7 @@ class Template_Create extends Command
 
         // Check if the file already exists
         if (file_exists($file)) {
-            throw new File_Exists("That file already exists.", 1);
+            throw new FileExists("That file already exists.", 1);
         }
 
         // Copy the file
