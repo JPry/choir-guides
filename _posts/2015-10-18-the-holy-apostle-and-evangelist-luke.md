@@ -4,7 +4,7 @@ eothinon: 9
 title: The Holy Apostle and Evangelist Luke
 saints:
     - Martyr Marinos the Elder at Anazarbos
-    - Venerable Theodore, Simeon, and Euphrosyne
+    - Venerable Theodore, Simeon and Euphrosyne
     - New-martyrs Gabriel and Kyrmidoles of Egypt
     - Venerable Peter of Cetinje
 
@@ -38,7 +38,7 @@ ascension: true
 kontakion: false
 trisagion: false
 megalynarion: false
-koinonikon: *"His proclamation hath gone out into all the earth; and his words to the ends of the universe."*
+koinonikon: "His proclamation hath gone out into all the earth; and his words to the ends of the universe."
 post_communion: false
 
 ---
