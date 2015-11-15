@@ -10,14 +10,13 @@ namespace JPry\ChoirGuide\Commands;
 
 use Cocur\Slugify\Slugify;
 use JPry\ChoirGuide\Exception\FileExists;
+use JPry\ChoirGuide\Helpers\TemplateHelper;
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Helper\QuestionHelper;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
-use Symfony\Component\Console\Question\Question;
 
 /**
  * Class TemplateCreate
@@ -75,43 +74,11 @@ class TemplateCreate extends Command
      */
     protected function interact(InputInterface $input, OutputInterface $output)
     {
-        $definition = $this->getDefinition();
-        $arguments  = $input->getArguments();
-
-        /** @var QuestionHelper $questioner */
-        $questioner = $this->getHelper('question');
-
-        // Ask whether this is a feast
-        if (!$input->getOption('feast')) {
-            $text     = 'Is this for a feast?';
-            $question = new ConfirmationQuestion(sprintf($this->q_format, $text));
-
-            // Get the response and store it as boolean
-            $response = (bool) $questioner->ask($input, $output, $question);
-            $input->setOption('feast', $response);
-        }
-
-        // Loop through any missing arguments and ask for them
-        foreach ($definition->getArguments() as $argument) {
-            $name = $argument->getName();
-
-            // If this is for a feast, skip the date because it's not needed in the file name
-            if ($input->getOption('feast') && 'date' == $name) {
-                continue;
-            }
-
-            // Only prompt if the argument wasn't set
-            if (!isset($arguments[$name])) {
-                // Set up the variables we'll need
-                $description = $argument->getDescription();
-                $default     = $argument->getDefault();
-                $question    = new Question(sprintf($this->q_format, $description), $default);
-
-                // Get the response, and store it
-                $response = $questioner->ask($input, $output, $question);
-                $input->setArgument($name, $response);
-            }
-        }
+        /** @var TemplateHelper $template_helper */
+        $template_helper = $this->getHelper('choir_template');
+        $template_helper->setDefinition($this->getDefinition());
+        $template_helper->setInputOutput($input, $output);
+        $template_helper->promptAllArguments();
 
         // Ask about the condensed template
         if (!$input->getOption('condensed')) {
@@ -119,7 +86,7 @@ class TemplateCreate extends Command
             $question = new ConfirmationQuestion(sprintf($this->q_format, $text));
 
             // Get the response and store it as boolean
-            $response = (bool) $questioner->ask($input, $output, $question);
+            $response = (bool) $template_helper->getQuestionHelper()->ask($input, $output, $question);
             $input->setOption('condensed', $response);
         }
     }
