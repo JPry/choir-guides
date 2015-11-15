@@ -78,7 +78,7 @@ class TemplateCreate extends Command
         $definition = $this->getDefinition();
         $arguments  = $input->getArguments();
 
-        /** @var QuestionHelper $question */
+        /** @var QuestionHelper $questioner */
         $questioner = $this->getHelper('question');
 
         // Ask whether this is a feast
