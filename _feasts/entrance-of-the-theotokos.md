@@ -1,5 +1,5 @@
 ---
-title: Entrance of the Theotokos
+title: the Entrance of the Theotokos
 when: November 21
 
 # Orthros
@@ -10,9 +10,9 @@ apolytikion:
     - Both Now/Apolytikion of the Entrance of the Theotokos - Tone 4
 
 kathismata: The Entrance
-evlogetaria: Psalm 44 - Anti-Polyeleos - Tone 1
+evlogetaria: ANTI-POLYELEOS - Psalm 44 - Tone 1
 prokeimenon: for the Entrance - Tone 4
-canon: First Canon of Christ's Nativity, 9th Ode of First Canon of the Entrance, 9th Ode of Second Canon of the Entrance
+canon: 'First Canon of Christ's Nativity<br> 9th Ode of First Canon of the Entrance<br> 9th Ode of Second Canon of the Entrance'
 little_ektenia_3: 2
 normal_exaposteilarion: false
 exaposteilaria:
