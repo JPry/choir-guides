@@ -12,7 +12,7 @@ apolytikion:
 kathismata: The Entrance
 evlogetaria: ANTI-POLYELEOS - Psalm 44 - Tone 1
 prokeimenon: for the Entrance - Tone 4
-canon: 'First Canon of Christ's Nativity<br> 9th Ode of First Canon of the Entrance<br> 9th Ode of Second Canon of the Entrance'
+canon: <br>First Canon of Christ's Nativity <br> 9th Ode of First Canon of the Entrance <br> 9th Ode of Second Canon of the Entrance
 little_ektenia_3: 2
 normal_exaposteilarion: false
 exaposteilaria:
