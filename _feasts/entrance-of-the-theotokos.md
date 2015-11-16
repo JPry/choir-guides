@@ -1,5 +1,5 @@
 ---
-title: the Entrance of the Theotokos
+title: The Entrance of the Theotokos
 when: November 21
 
 # Orthros
