@@ -18,9 +18,11 @@
         {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
         {{ orthros_include | markdownify }}
     </section>
-    {% endif %}
 
     <section class="right">
+    {% else %}
+    <section>
+    {% endif %}
         <h3 class='caps service'>Divine Liturgy</h3>
         {% capture liturgy_include %}{% include liturgy.md %}{% endcapture %}
         {{ liturgy_include | markdownify }}

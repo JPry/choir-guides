@@ -1,5 +1,6 @@
 ---
 title: American Thanksgiving
+when: November 26th
 saints:
     - Venerable Alypios the Stylite of Adrianople
     - Nikon the preacher of repentance

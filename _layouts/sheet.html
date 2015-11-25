@@ -19,9 +19,11 @@
         {{ orthros_include | markdownify }}
         {% if false == page.liturgy_right %}<hr>{% endif %}
     </section>
-    {% endif %}
 
     <section class="right">
+    {% else %}
+    <section>
+    {% endif %}
         <h3 class='caps service'>Divine Liturgy</h3>
         {% capture liturgy_include %}{% include liturgy.md %}{% endcapture %}
         {{ liturgy_include | markdownify }}
