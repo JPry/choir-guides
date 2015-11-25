@@ -12,11 +12,13 @@
 
     <hr>
 
+    {% if page.orthros %}
     <section>
         <h3 class='caps service'>Orthros</h3>
         {% capture orthros_include %}{% include orthros.md %}{% endcapture %}
         {{ orthros_include | markdownify }}
     </section>
+    {% endif %}
 
     <section class="right">
         <h3 class='caps service'>Divine Liturgy</h3>
