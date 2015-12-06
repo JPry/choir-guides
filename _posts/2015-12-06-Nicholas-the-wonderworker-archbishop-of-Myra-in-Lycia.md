@@ -1,6 +1,6 @@
 ---
 tone: 2
-eothinon:5 
+eothinon: 5 
 title: Nicholas the wonderworker, archbishop of Myra in Lycia
 saints:
     - Nicholas, bishop of Patara
