@@ -92,6 +92,11 @@ class TemplateHelper extends Helper
         foreach ($this->getDefinition()->getArguments() as $argument) {
             $name = $argument->getName();
 
+            // Skip asking for which command to run
+            if ('command' == $name) {
+                continue;
+            }
+
             // If this is for a feast, skip the date because it's not needed in the file name
             if ($this->input->getOption('feast') && 'date' == $name) {
                 continue;
