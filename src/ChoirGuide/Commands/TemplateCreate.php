@@ -49,7 +49,7 @@ class TemplateCreate extends Command
             ->addArgument(
                 'date',
                 InputArgument::OPTIONAL,
-                'What is the date for the new post? Make sure to surround with quotes. Example: "next Sunday"'
+                'What is the date for the new post? Example: "next Sunday"'
             )
             ->addOption(
                 'condensed',
