@@ -40,6 +40,5 @@ trisagion: false
 megalynarion: false
 koinonikon: false
 post_communion: false
-
 ---
 
