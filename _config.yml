@@ -1,6 +1,7 @@
 baseurl: "/choir-guides"
 title: "Variable Sheets"
 permalink: pretty
+future: true
 exclude:
     - bin
     - composer.*
