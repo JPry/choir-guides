@@ -89,6 +89,11 @@ class TemplateCreate extends Command
             $response = (bool) $template_helper->getQuestionHelper()->ask($input, $output, $question);
             $input->setOption('condensed', $response);
         }
+
+        // Default the 'date' option to 'next sunday'
+        if (!$input->getArgument('date')) {
+            $input->setArgument('date', 'next Sunday');
+        }
     }
 
     /**
