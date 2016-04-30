@@ -88,5 +88,8 @@ koinonikon: false
 # Post-communion instructions
 post_communion: false
 
+# Set to "true" to use Markdown inside the post_communion section above (advanced usage)
+post_communion_markdown: false
+
 ---
 

@@ -30,5 +30,9 @@ KOINONIKON: {{ page.koinonikon }}
 {% endif %}
 
 {% if page.post_communion %}
+{% if page.post_communion_markdown %}
+POST-COMMUNION: {{ page.post_communion | markdownify }}
+{% else %}
 POST-COMMUNION: {{ page.post_communion }}
+{% endif %}
 {% endif %}
