@@ -22,9 +22,9 @@ megalynarion: Pascha - Tone 1
 koinonikon: Pascha - Tone 8 
 post_communion: |
     
-    - *Instead of "We have seen the true Light", sing "Christ is Risen" ONCE*
-    - *Instead of "Blessed be the Name of the Lord", sing "Christ is Risen" THRICE*
-    - *The Priest blessed the Flesh-meats, Eggs, and Cheese*
+    - *Instead of "We have seen the true Light", sing "Christ is Risen" **ONCE***
+    - *Instead of "Blessed be the Name of the Lord", sing "Christ is Risen" **THRICE***
+    - *The Priest blesses the Flesh-meats, Eggs, and Cheese*
 
 post_communion_markdown: true
 ---
