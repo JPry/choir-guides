@@ -2,6 +2,10 @@
 
 3rd Antiphon - {{ page.antiphon_3 }}
 
+{% if page.entrance %}
+ENTRANCE: {{ page.entrance }}
+{% endif %}
+
 After Entrance Troparia:
 
 {% for song in page.post_entrance %}

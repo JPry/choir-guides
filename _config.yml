@@ -41,6 +41,7 @@ defaults:
             koinonikon: false
             post_communion: false
             post_communion_markdown: false
+            entrance: false
     -
         scope:
             path: ""
