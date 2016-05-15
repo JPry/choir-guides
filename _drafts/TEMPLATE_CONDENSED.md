@@ -28,6 +28,7 @@ troparion: null
 # Divine Liturgy
 antiphon_12: Normal Sunday
 antiphon_3: 
+entrance: false
 post_entrance:
     - 
 ascension: true
