@@ -13,7 +13,7 @@ After Entrance Troparia:
 {% endfor %}
 {% if page.ascension %}
 1. Troparion of Ascension
-{% else %}
+{% elsif false == page.ascension %}
 1. **DO NOT SING** Troparion of Ascension
 {% endif %}
 
