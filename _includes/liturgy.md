@@ -11,7 +11,7 @@ After Entrance Troparia:
 {% for song in page.post_entrance %}
 1. {{ song }}
 {% endfor %}
-{% if page.ascension %}
+{% if true == page.ascension %}
 1. Troparion of Ascension
 {% elsif false == page.ascension %}
 1. **DO NOT SING** Troparion of Ascension
