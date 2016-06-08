@@ -37,7 +37,7 @@ post_entrance:
     - Resurrectional Apolytikion - Tone 6
     - Apolytikion of Ascension - Tone 4
     - Apolytikion of the Holy Fathers - Tone 8
-ascension: null
+ascension: no
 kontakion: of Ascension - Tone 8
 trisagion: false
 megalynarion: false
