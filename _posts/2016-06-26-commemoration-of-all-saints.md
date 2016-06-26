@@ -1,7 +1,7 @@
 ---
 tone: 8
 eothinon: 1
-title: First Sunday after Pentecost: Commemoration of All Saints
+title: First Sunday after Pentecost - Commemoration of All Saints
 saints:
     - Venerable David of Thessalonica
     - John, bishop of the Goths in the Crimea
