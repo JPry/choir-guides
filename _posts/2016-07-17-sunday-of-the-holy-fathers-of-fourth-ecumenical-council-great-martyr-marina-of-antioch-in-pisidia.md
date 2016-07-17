@@ -34,7 +34,7 @@ entrance: false
 post_entrance:
     - Resurrectional Apolytikion - Tone 3
     - Apolytikion of Holy Fathers - Tone 8
-    - Resurrectional Theotokion - Tone 4
+    - Apolytikion of St. Marina - Tone 4
 ascension: true
 kontakion: false
 trisagion: false
