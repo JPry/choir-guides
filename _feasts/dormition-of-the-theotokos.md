@@ -23,9 +23,9 @@ great_doxology: 6
 troparion: Apolytikion of the Dormition - Tone 1
 
 # Divine Liturgy
-antiphon_12: Festal verses *(see sheet)*
+antiphon_12: Festal verses (see sheet)
 antiphon_3: Apolytikion of the Dormition - Tone 1
-entrance: ***"Who art wondrous in the Saints..."***
+entrance: '***"Who art wondrous in the Saints..."***'
 post_entrance:
     - Apolytikion of the Dormition - Tone 1
 
@@ -34,8 +34,8 @@ ascension: false
 kontakion: Dormition - Tone 2
 trisagion: false
 megalynarion: Dormition - Tone 1
-koinonikon: *"I will receive the cup of Salvation..."*
-post_communion: *"We have seen the true light..."*
+koinonikon: '*"I will receive the cup of Salvation..."*'
+post_communion: '*"We have seen the true light..."*'
 post_communion_markdown: false
 
 ---
