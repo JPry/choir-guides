@@ -1,6 +1,6 @@
 ---
 title: Exaltation of the Holy Cross
-when: September 14th 2015
+when: September 14
 
 saints:
     - Repose of John Chrysostom, archbishop of Constantinople
@@ -10,9 +10,9 @@ saints:
 # Orthros
 god_is_the_lord: 1
 apolytikion:
-    - Exaltation of the Holy Cross - Tone 1
-    - Glory/Exaltation of the Holy Cross - Tone 1
-    - Both Now/Exaltation of the Holy Cross - Tone 1
+    - Apolytikion of the Exaltation of the Holy Cross - Tone 1
+    - Glory/Apolytikion of the Exaltation of the Holy Cross - Tone 1
+    - Both Now/Apolytikion of the Exaltation of the Holy Cross - Tone 1
 
 kathismata: Exaltation of the Holy Cross
 evlogetaria: Polyeleos - Tone 1
@@ -31,7 +31,7 @@ troparion: Exaltation of the Holy Cross - Tone 1
 antiphon_12: See Sheet
 antiphon_3: Exaltation of the Holy Cross
 post_entrance:
-    - Exaltation of the Holy Cross - Tone 1
+    - Apolytikion of the Exaltation of the Holy Cross - Tone 1
 
 ascension: false
 
