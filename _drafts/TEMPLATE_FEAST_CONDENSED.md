@@ -25,6 +25,7 @@ troparion:
 # Divine Liturgy
 antiphon_12: 
 antiphon_3: 
+entrance: false
 post_entrance:
     - 
 

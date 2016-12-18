@@ -66,6 +66,9 @@ antiphon_12:
 # 3rd Antiphon for Divine Liturgy
 antiphon_3: 
 
+# The entrance Hymn, if different than a normal Sunday
+entrance: false
+
 # List of after-entrance Troparia for Divine Liturgy. DO NOT include Troparion of Ascension
 post_entrance:
     - 
