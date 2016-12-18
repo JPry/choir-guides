@@ -2,6 +2,7 @@ baseurl: "/choir-guides"
 title: "Variable Sheets"
 permalink: pretty
 future: true
+encoding: ASCII-8BIT
 exclude:
     - bin
     - composer.*
@@ -64,3 +65,4 @@ defaults:
 kramdown:
     parse_block_html: true
     input: GFM
+    smart_quotes: ["apos", "apos", "quot", "quot"]
