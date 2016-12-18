@@ -35,9 +35,8 @@ kontakion: Nativity of Christ - Tone 3
 trisagion: Anti-Trisagion Hymn ("As many of you as have been baptized into Christ...")
 megalynarion: for St. Basil Liturgy
 koinonikon: Nativity of Christ - Tone 8
-post_communion: >
-*Instead of singing "We have seen the true light", sing the festal Apolytikion: "Thy Nativity O Christ"*
-post_communion_markdown: true
+post_communion: '*Instead of singing "We have seen the true light", sing the festal Apolytikion: "Thy Nativity O Christ"*'
+post_communion_markdown: false
 
 ---
 
