@@ -4,9 +4,15 @@ GOD IS THE LORD - Tone {{ page.god_is_the_lord }}
 GOD IS THE LORD - Tone {{ page.tone }}
 {% endif %}
 
+{% if page.festal_apolytikion %}
+1. {{ page.festal_apolytikion %}
+2. Glory/{{ page.festal_apolytikion %}
+3. Both Now/{{ page.festal_apolytikion %}
+{% else %}
 {% for hymn in page.apolytikion %}
 1. {{ hymn }}
 {% endfor %}
+{% endif %}
 
 LITTLE LITTANY **p. 32**{: class="right" }
 

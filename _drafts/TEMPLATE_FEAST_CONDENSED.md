@@ -4,10 +4,11 @@ when:
 
 # Orthros
 god_is_the_lord: 
-apolytikion:
-    - 
-    - Glory/
-    - Both Now/
+festal_apolytikion: 
+#apolytikion:
+#    - 
+#    - Glory/
+#    - Both Now/
 
 kathismata: 
 evlogetaria: 

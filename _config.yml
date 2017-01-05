@@ -26,6 +26,7 @@ defaults:
             author: "Jeremy Pry"
             orthros: true
             god_is_the_lord: null
+            festal_apolytikion: null
             kathismata: null
             evlogetaria: null
             prokeimenon: null
