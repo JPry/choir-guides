@@ -30,7 +30,7 @@ post_entrance:
 ascension: false
 
 kontakion: Theophany of Christ - Tone 4
-trisagion: Anti-Trisagion Hymn ("As man of you as have been baptized into Christ...")
+trisagion: Anti-Trisagion Hymn ("As many of you as have been baptized into Christ...")
 megalynarion: Theophany of Christ - Tone 2
 koinonikon: Theophany of Christ - Tone 8
 post_communion: '*Instead of singing "We have seen the true light", sing the Apolytikion of the Theophany of Christ in Tone 1*'
