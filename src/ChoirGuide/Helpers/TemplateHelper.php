@@ -6,7 +6,7 @@
 namespace JPry\ChoirGuide\Helpers;
 
 use Symfony\Component\Console\Helper\Helper;
-use Symfony\Component\Console\Helper\QuestionHelper;
+use Symfony\Component\Console\Helper\HelperInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputInterface;
@@ -62,7 +62,7 @@ class TemplateHelper extends Helper
     /**
      * Retrieve the QuestionHelper object.
      *
-     * @return QuestionHelper
+     * @return HelperInterface
      */
     public function getQuestionHelper()
     {
