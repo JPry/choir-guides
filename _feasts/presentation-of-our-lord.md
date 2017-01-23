@@ -1,13 +1,10 @@
 ---
-title: Presentation of Our Lord Jesus Christ
+title: Presentation (Meeting) of Our Lord Jesus Christ
 when: February 2nd
 
 # Orthros
 god_is_the_lord: 1
-apolytikion:
-    - Apolytikion of the Presentation of Christ - Tone 1
-    - Glory/Apolytikion of the Presentation of Christ - Tone 1
-    - Both Now/Apolytikion of the Presentation of Christ - Tone 1
+festal_apolytikion: Apolytikion of the Presentation of Christ - Tone 1
 
 kathismata: Presentation of Christ
 evlogetaria: Anti-Polyeleos - Tone 1
@@ -16,7 +13,7 @@ canon: Presentation of Christ - Tone 3
 little_ektenia_3: 2
 normal_exaposteilarion: false
 exaposteilaria:
-    - Exaposteilarion of the Presentation - Tone 3
+    - Exaposteilarion of the Presentation - Tone 3 **THRICE**
 praises: 4
 doxastikon: the Presentation - Tone 6
 great_doxology: Tone 6
