@@ -15,12 +15,12 @@
 
 <p>Last updated: {{ site.time | date: "%B %-d %Y %R" }}</p>
 
-<h2>Great Feasts</h2>
+<h2>Feasts</h2>
 
 {% for feast in site.feasts %}
 
 <p>
-    <a href="{{ feast.url | prepend: site.baseurl }}" target="_blank">{{ feast.title }} - {{ feast.when }}</a>
+    <a href="{{ feast.url | prepend: site.baseurl }}">{{ feast.title }} - {{ feast.when }}</a>
 </p>
 
 {% endfor %}
@@ -30,7 +30,7 @@
 {% for post in site.posts %}
 
 <p>
-    <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.date | date: "%B %-d, %Y" }} - {{ post.title }}</a>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%B %-d, %Y" }} - {{ post.title }}</a>
 </p>
 
 {% endfor %}
