@@ -1,6 +1,6 @@
 ---
-tone: 
-eothinon: 
+tone: 4
+eothinon: 4
 title: First Sunday of Great Lent (Sunday of Orthodoxy)
 all_saints: >
     Hieromartyr Konon of Isauria; Martyrs Archelaos and his 152 companions in Egypt;
