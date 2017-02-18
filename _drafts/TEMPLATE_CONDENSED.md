@@ -2,9 +2,7 @@
 tone: 
 eothinon: 
 title: 
-saints:
-    - 
-    - 
+all_saints: 
 
 # Orthros
 apolytikion:

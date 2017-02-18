@@ -20,10 +20,8 @@ eothinon:
 # The Primary Saint or Feast being celebrated
 title: 
 
-# List of Saints commemorated
-saints:
-    - 
-    - 
+# List of Saints commemorated. Copy/paste directly from Antiochian.org guide.
+all_saints: 
 
 # List of Apolytikions for Orthros
 apolytikion:

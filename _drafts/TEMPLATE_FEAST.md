@@ -20,7 +20,7 @@ when:
 # Tone for God is the Lord (only the number is needed). Example: 4
 god_is_the_lord:
 
-# Use this instead of the Apolytikion below when the same thing is changed thrice.
+# Use this instead of the Apolytikion below when the same thing is chanted thrice.
 festal_apolytikion: 
 
 # List of Apolytikions for Orthros
