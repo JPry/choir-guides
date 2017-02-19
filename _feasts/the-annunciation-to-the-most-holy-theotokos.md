@@ -4,10 +4,7 @@ when: March 25
 
 # Orthros
 god_is_the_lord: 4
-apolytikion:
-    - Apolytikion of the Annunciation - Tone 4
-    - Glory/Apolytikion of the Annunciation - Tone 4
-    - Both Now/Apolytikion of the Annunciation - Tone 4
+festal_apolytikion: Apolytikion of the Annunciation - Tone 4
 
 kathismata: First, Second & Third Kathismata of the Annunciation
 evlogetaria: Anti-Polyeleos - Tone 1
@@ -24,8 +21,9 @@ great_doxology: 2
 troparion: Apolytikion of the Annunciation - Tone 4
 
 # Divine Liturgy
-antiphon_12: See Sheet
+antiphon_12: See Sheet (**"Who wast incarnate for our sake"**)
 antiphon_3: Apolytikion of the Annunciation - Tone 4
+entrance: Eisodikion of the Annunciation (**"Who wast incarnate for our sake"**)
 post_entrance:
     - Apolytikion of the Annunciation - Tone 4
 
