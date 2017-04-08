@@ -1,6 +1,6 @@
 ---
 title: Great and Holy Pascha
-when: May 1 
+when: April 16
 
 # Orthros
 orthros: false
@@ -19,13 +19,15 @@ ascension: false
 kontakion: Pascha - Tone 8
 trisagion: '*"As many as have been baptized..."*'
 megalynarion: Pascha - Tone 1
-koinonikon: Pascha - Tone 8 
+koinonikon: Pascha - Tone 8
+post_communion_markdown: true
 post_communion: |
     
     - *Instead of "We have seen the true Light", sing "Christ is Risen" **ONCE***
     - *Instead of "Blessed be the Name of the Lord", sing "Christ is Risen" **THRICE***
     - *The Priest blesses the Flesh-meats, Eggs, and Cheese*
+    - *The Choir sings Apolytikion of St. John Chrysostom in Tone 8*
 
-post_communion_markdown: true
+
 ---
 
