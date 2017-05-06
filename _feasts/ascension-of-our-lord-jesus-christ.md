@@ -4,10 +4,7 @@ when: 40 days after Pascha
 
 # Orthros
 god_is_the_lord: 4
-apolytikion:
-    - Apolytikion of Ascension - Tone 4
-    - Glory/Apolytikion of Ascension - Tone 4
-    - Both Now/Apolytikion of Ascension - Tone 4
+festal_apolytikion: Apolytikion of Ascension - Tone 4
 
 kathismata: of the Ascension
 evlogetaria: POLYELEOS - Tone 1
