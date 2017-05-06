@@ -14,7 +14,7 @@ kathismata: null
 evlogetaria: null
 prokeimenon: null
 canon: Paschal Canon - Tone 1
-little_ektenia_3: 2
+little_ektenia_3: 1
 normal_exaposteilarion: false
 exaposteilaria:
     - Exaposteilarion of Pascha - Tone 2
