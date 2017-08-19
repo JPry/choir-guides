@@ -1,13 +1,9 @@
 ---
-title: The Nativity of the Theotokos
+title: Feast of the Nativity of the Theotokos
 when: September 8th
 
 god_is_the_lord: 4
-apolytikion:
-    - Nativity of the Theotokos - Tone 4
-    - Glory/Nativity of the Theotokos - Tone 4
-    - Both Now/Nativity of the Theotokos - Tone 4
-    
+festal_apolytikion: Apolytikon of the Nativity of the Theotokos - Tone 4
 kathismata: Nativity of the Theotokos
 evlogetaria: Anti-Polyeleos - Tone 1
 prokeimenon: Nativity of the Theotokos - Tone 4
@@ -22,8 +18,9 @@ great_doxology: 6
 troparion: Nativity of the Theotokos - Tone 4
 
 # Divine Liturgy
-antiphon_12: See sheet
+antiphon_12: See sheet (**"Who art wondrous in the Saints..."**)
 antiphon_3: Apolytikion of Natitivity of the Theotokos
+entrance: '*Ordinary weekdays (**"Who art wondrous in the Saints..."**)*'
 post_entrance:
     - Nativity of the Theotokos - Tone 4
 
