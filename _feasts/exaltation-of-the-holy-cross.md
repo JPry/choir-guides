@@ -1,5 +1,5 @@
 ---
-title: Exaltation of the Holy Cross
+title: Elevation (Exaltation) of the Holy Cross
 when: September 14
 
 saints:
@@ -9,33 +9,28 @@ saints:
 
 # Orthros
 god_is_the_lord: 1
-apolytikion:
-    - Apolytikion of the Exaltation of the Holy Cross - Tone 1
-    - Glory/Apolytikion of the Exaltation of the Holy Cross - Tone 1
-    - Both Now/Apolytikion of the Exaltation of the Holy Cross - Tone 1
-
-kathismata: Exaltation of the Holy Cross
+festal_apolytikion: Apolytikion of the Elevation of the Holy Cross - Tone 1
+kathismata: Elevation of the Holy Cross
 evlogetaria: Polyeleos - Tone 1
-prokeimenon: Exaltation of the Holy Cross - Tone 4
+prokeimenon: Elevation of the Holy Cross - Tone 4
 canon: Holy Cross - Tone 8
 little_ektenia_3: 2
 normal_exaposteilarion: false
 exaposteilaria:
-    - Exaltation of the Holy Cross - Tone 2
+    - Elevation of the Holy Cross - Tone 2
 praises: 8
-doxastikon: Exaltation of the Holy Cross - Tone 6
+doxastikon: Elevation of the Holy Cross - Tone 6
 great_doxology: 6
-troparion: Exaltation of the Holy Cross - Tone 1
+troparion: Elevation of the Holy Cross - Tone 1
 
 # Divine Liturgy
-antiphon_12: See Sheet
-antiphon_3: Exaltation of the Holy Cross
+antiphon_12: See Sheet (**"Who wast crucified in the flesh..."**)
+antiphon_3: Apolytikion of the Elevation of the Holy Cross - Tone 1
+entrance: Entrance Hymn of the feast
 post_entrance:
-    - Apolytikion of the Exaltation of the Holy Cross - Tone 1
-
+    - Apolytikion of the Elevation of the Holy Cross - Tone 1
 ascension: false
-
-kontakion: Exaltation of the Holy Cross - Tone 4
+kontakion: Elevation of the Holy Cross - Tone 4
 trisagion: Anti-Trisagion Hymn *("Before Thy Cross we bow down...")*
 megalynarion: of the feast *("Magnify, O my soul, the most precious Cross...")*
 koinonikon: of the feast *("The light of Thy countenance...")*
