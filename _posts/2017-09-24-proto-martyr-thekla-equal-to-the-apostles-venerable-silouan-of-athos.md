@@ -2,7 +2,7 @@
 tone: 7
 eothinon: 5
 title: Proto-martyr Thekla, equal-to-the-Apostles & Venerable Silouan of Athos
-all_saints: 
+all_saints: Commemoration of the wonder-working icon of the Theotokos of the Myrtle Tree; New-martyr Ahmed; Venerable Nicander of Pskov; the Synaxis of all saints of Alaska
 
 # Orthros
 apolytikion:
