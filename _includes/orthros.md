@@ -14,7 +14,7 @@ GOD IS THE LORD - Tone {{ page.tone }}
 {% endfor %}
 {% endif %}
 
-LITTLE LITTANY **p. 32**{: class="right" }
+LITTLE LITANY **p. 32**{: class="right" }
 
 {% if page.kathismata %}
 KATHISMATA - {{ page.kathismata }}
@@ -28,7 +28,7 @@ KATHISMATA - Tone {{ page.tone }} **p. {{ site.data.vars.kathismata[page.tone] }
 EVLOGETARIA - Tone 5 **p. 41**{: class="right" }
 {% endif %}
 
-LITTLE LITTANY **p. 45**{: class="right" }
+LITTLE LITANY **p. 45**{: class="right" }
 
 {% if page.prokeimenon %}
 FESTAL ANABATHMOI & PROKEIMENON - {{ page.prokeimenon }}
@@ -40,7 +40,7 @@ ORTHROS GOSPEL, etc. **p. 65**{: class="right" }
 
 CANON: {{ page.canon }}
 
-Littany & 'Holy is the Lord' **p. {{ site.data.vars.little_ektenia_3[page.little_ektenia_3] }}**{: class="right" }
+Litany & 'Holy is the Lord' **p. {{ site.data.vars.little_ektenia_3[page.little_ektenia_3] }}**{: class="right" }
 
 EXAPOSTEILARIA
 
