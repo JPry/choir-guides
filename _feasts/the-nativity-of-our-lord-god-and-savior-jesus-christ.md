@@ -4,10 +4,7 @@ when: December 25
 
 # Orthros
 god_is_the_lord: 4
-apolytikion:
-    - Apolytikion of the Nativity of Christ - Tone 4
-    - Glory/Apolytikion of the Nativity of Christ - Tone 4
-    - Both Now/Apolytikion of the Nativity of Christ - Tone 4
+festal_apolytikion: Apolytikion of the Nativity of Christ - Tone 4
 
 kathismata: Nativity of Christ - Tone 4
 evlogetaria: Polyeleos, Psalm 134 & 135
@@ -16,7 +13,7 @@ canon: both Canons of Christ's Nativity - Tone 1
 little_ektenia_3: 2
 normal_exaposteilarion: false
 exaposteilaria:
-    - Exaposteilarion of the Nativity of Christ - Tone 3
+    - Exaposteilarion of the Nativity of Christ - Tone 3 **(THRICE)**
 praises: 4
 doxastikon: 'Doxastica of the Nativity of Christ - Tone 6 **and** Tone 2'
 great_doxology: 2
