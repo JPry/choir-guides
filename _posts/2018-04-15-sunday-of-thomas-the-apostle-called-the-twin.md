@@ -13,7 +13,7 @@ evlogetaria: Polyeleos - Tone 1
 prokeimenon: Thomas Sunday
 canon: Paschal Canon - Tone 1
 little_ektenia_3: 2
-normal_exaposteilarion: true
+normal_exaposteilarion: false
 exaposteilaria:
     - Exaposteilaria of Thomas Sunday - Tone 3
 praises: 1
