@@ -1,7 +1,7 @@
 ---
 tone: 2
 eothinon: 4
-title: Third Sunday of Pascha: Sunday of Myrrh-Bearing Women, Joseph of Arimathaea & Righteous Nicodemus
+title: 'Third Sunday of Pascha: Sunday of Myrrh-Bearing Women, Joseph of Arimathaea & Righteous Nicodemus'
 all_saints: Theodore of Sykeon, Nathaniel, Luke, & Clemente the Apostles, Nearchos the Martyr, Gregory Gravanos of Nisyros
 
 # Orthros
@@ -20,7 +20,7 @@ exaposteilaria:
     - Exaposteilarion of Pascha - Tone 2
     - Exaposteilarion of the Myrrh-Bearing Women - Tome 2
 praises: null
-doxastikon: **Second** Eothinon Doxastikion (Tone 2, page 169) and Doxastikion of Pascha (Tone 5) 
+doxastikon: '**Second** Eothinon Doxastikion (Tone 2, page 169) and Doxastikion of Pascha (Tone 5)'
 great_doxology: 5
 troparion: null
 

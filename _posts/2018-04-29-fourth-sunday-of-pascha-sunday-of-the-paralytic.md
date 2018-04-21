@@ -1,7 +1,7 @@
 ---
 tone: 3
 eothinon: 5
-title: Fourth Sunday of Pascha: Sunday of the Paralytic
+title: 'Fourth Sunday of Pascha: Sunday of the Paralytic'
 all_saints: Apostles Jason and Sosipater of the Seventy; Martyr Kerkyra of Corfu; John the New Almsgiver, metropolitan of Thebes; Martyr John of Romania; Basil of Ostrog, Metropolitan of Zakhum in Serbia
 
 # Orthros
