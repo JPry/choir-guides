@@ -32,7 +32,7 @@ post_entrance:
 ascension: true
 kontakion: Pascha - Tone 8
 trisagion: false
-megalynarion: false
+megalynarion: Pascha - Tone 8
 koinonikon: Pascha - Tone 8
 post_communion: '*Instead of "We have seen the true light", sing "Christ is Risen" **ONCE***'
 post_communion_markdown: false
