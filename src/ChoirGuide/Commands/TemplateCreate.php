@@ -63,6 +63,12 @@ class TemplateCreate extends Command
                 InputOption::VALUE_NONE,
                 'Designates that the guide is for a feast.'
             )
+            ->addOption(
+                'pascha',
+                'p',
+                InputOption::VALUE_NONE,
+                'Designates that the guide is during the Paschal season'
+            )
         ;
     }
 
@@ -113,6 +119,7 @@ class TemplateCreate extends Command
         $title     = $input->getArgument('title');
         $condensed = $input->getOption('condensed');
         $feast     = $input->getOption('feast');
+        $pascha    = $input->getOption('pascha');
 
         // Determine if this is a feast or regular sunday
         if ($feast) {
@@ -129,6 +136,7 @@ class TemplateCreate extends Command
         // Copy the file
         $template = ROOT_DIR . '/_drafts/TEMPLATE';
         $template .= $feast ? '_FEAST' : '';
+        $template .= $pascha ? '_PASCHA' : '';
         $template .= $condensed ? '_CONDENSED.md' : '.md';
         $result = @copy($template, $file);
 
