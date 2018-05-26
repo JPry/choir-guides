@@ -41,6 +41,9 @@ ORTHROS GOSPEL, etc. **p. 65**{: class="right" }
 CANON: {{ page.canon }}
 
 Litany & 'Holy is the Lord' **p. {{ site.data.vars.little_ektenia_3[page.little_ektenia_3] }}**{: class="right" }
+{% if page.little_ektenia_3_note %}
+{{ page.little_ektenia_3_note }}
+{% endif %}
 
 EXAPOSTEILARIA
 
