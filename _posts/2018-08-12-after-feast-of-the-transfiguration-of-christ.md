@@ -25,7 +25,7 @@ troparion: null
 
 # Divine Liturgy
 antiphon_12: 'See sheet (**"Who wast transfigured on Mt. Tabor"**)'
-antiphon_3: Resurrectional Apolytikion - Tone 2
+antiphon_3: Apolytikion of the Transfiguration - Tone 7
 entrance: Normal Sundays (**"Who art risen from the dead"**)
 post_entrance:
     - Resurrectional Apolytikion - Tone 2   
